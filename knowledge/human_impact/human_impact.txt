@@ -1,0 +1,38 @@
+@"
+HUMAN IMPACT KNOWLEDGE
+
+Deforestation:
+Deforestation removes or changes forest habitat and can affect biodiversity, soil conditions, carbon storage and water-cycle processes.
+
+Pollution:
+Pollution can affect organisms directly and can alter ecosystem processes. Soil pollution may affect soil organisms, while water pollution can affect aquatic organisms and freshwater ecosystems.
+
+Agricultural Intensification:
+Intensive agricultural practices can affect soil biodiversity, soil carbon, nutrient cycling and habitat conditions. The effects depend on the management system and environmental context.
+
+Water Extraction:
+Excessive water extraction can reduce water availability for ecosystems and can place pressure on freshwater species and habitats.
+
+Habitat Loss:
+Conversion of natural habitats to agriculture, infrastructure or other land uses can reduce available habitat and contribute to biodiversity loss.
+
+Multiple Human Pressures:
+Human pressures can interact with climate change. Habitat loss, pollution, water extraction and land-use change may increase ecosystem vulnerability to climate-related stress.
+
+Important Metrics:
+- Pollution level
+- Deforestation level
+- Land-use change
+- Water availability
+- Species richness
+- Habitat diversity
+- Soil organic carbon
+
+Reasoning Relationship:
+A site experiencing high deforestation and pollution may face biodiversity pressure from multiple pathways. If rainfall is also low and soil moisture is low, water stress can further affect vegetation and habitat conditions. Recommendations should therefore consider multiple environmental variables rather than treating each pressure independently.
+
+Evidence Source:
+FAO - The State of Knowledge of Soil Biodiversity
+IPCC AR6 WGII - Chapter 2: Terrestrial and Freshwater Ecosystems and Their Services
+IPCC AR6 WGII - Chapter 4: Water
+"@ | Set-Content -Encoding UTF8 knowledge\human_impact\human_impact.txt

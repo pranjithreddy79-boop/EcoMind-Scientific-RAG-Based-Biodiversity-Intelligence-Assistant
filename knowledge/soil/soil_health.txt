@@ -1,0 +1,25 @@
+@"
+SOIL HEALTH KNOWLEDGE
+
+Soil pH:
+Soil pH influences nutrient availability, microbial activity, and plant growth. Very acidic or very alkaline conditions can reduce the availability of important nutrients and affect soil biological processes.
+
+Soil Organic Carbon:
+Soil organic carbon (SOC) is an important indicator of soil health. Higher organic carbon generally supports soil structure, water retention, nutrient cycling, and soil biological activity. Declining SOC can indicate degradation and can reduce the ability of soil to support diverse vegetation.
+
+Soil Moisture:
+Soil moisture determines water availability for plants and soil organisms. Low and highly variable soil moisture can limit plant establishment and affect organisms that depend on vegetation and soil habitats.
+
+Relationship between soil and biodiversity:
+Soil organic carbon, soil moisture, and vegetation are interconnected. Improving soil organic matter can improve soil structure and water retention, which can support vegetation. Greater vegetation diversity can provide more habitat and food resources for organisms.
+
+Useful management actions:
+Increasing organic matter through compost or suitable organic amendments can improve soil properties. Maintaining vegetation cover can reduce erosion and help retain soil moisture. Diversifying crops can increase habitat and resource diversity compared with a single-crop system.
+
+Important metrics:
+- Soil pH
+- Soil organic carbon (%)
+- Soil moisture (%)
+- Vegetation diversity
+- Species richness
+"@ | Set-Content -Encoding UTF8 knowledge\soil\soil_health.txt

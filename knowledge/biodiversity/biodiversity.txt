@@ -1,0 +1,32 @@
+@"
+BIODIVERSITY KNOWLEDGE
+
+Species Richness:
+Species richness is the number of different species present in a defined area. It is a basic biodiversity indicator and can be monitored over time to identify changes in biological diversity.
+
+Habitat Diversity:
+Habitat diversity describes the variety of habitat types available within a landscape. Different habitat types can provide different food, shelter, nesting and breeding opportunities for organisms.
+
+Soil and Biodiversity:
+Soil biodiversity includes microorganisms, fungi, invertebrates and other organisms living in soil. Soil organisms contribute to nutrient cycling, soil structure, water regulation and plant health.
+
+Vegetation and Biodiversity:
+Greater vegetation diversity can provide a wider range of food and shelter resources. Vegetation can also influence soil moisture, organic matter inputs and habitat conditions.
+
+Biodiversity and Human Pressure:
+Deforestation, agricultural intensification, pollution, habitat loss and habitat fragmentation can reduce biodiversity and alter ecosystem functions.
+
+Important Metrics:
+- Species richness
+- Habitat diversity
+- Vegetation diversity
+- Soil biodiversity
+- Habitat connectivity
+
+Reasoning Relationship:
+Low habitat diversity combined with monoculture land use can reduce the variety of resources available to organisms. Increasing habitat variety and maintaining connected vegetation can support biodiversity, but the appropriate intervention depends on local climate, land use and environmental conditions.
+
+Evidence Source:
+FAO - The State of Knowledge of Soil Biodiversity
+IPCC AR6 WGII - Chapter 2: Terrestrial and Freshwater Ecosystems and Their Services
+"@ | Set-Content -Encoding UTF8 knowledge\biodiversity\biodiversity.txt

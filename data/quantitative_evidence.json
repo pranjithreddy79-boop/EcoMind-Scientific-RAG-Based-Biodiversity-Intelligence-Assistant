@@ -1,0 +1,57 @@
+{
+    "SOC_COVER_CROPS": {
+        "evidence_id": "SOC_COVER_CROPS",
+        "metric": "soil_organic_carbon",
+        "estimate": "5.2% average increase",
+        "estimate_type": "meta-analysis average",
+        "conditions": "Global meta-analysis comparing cover-crop systems with systems without cover crops. Effects varied by cover-crop type and environmental conditions.",
+        "time_context": "Across the studies included in the meta-analysis",
+        "practice": "cover crops",
+        "source_title": "Optimizing cover cropping application for sustainable crop production",
+        "organization": "Nature",
+        "source_type": "Peer-reviewed meta-analysis",
+        "url": "https://www.nature.com/articles/s44264-025-00050-8"
+    },
+
+    "SOC_ORGANIC_AMENDMENTS": {
+        "evidence_id": "SOC_ORGANIC_AMENDMENTS",
+        "metric": "soil_organic_carbon",
+        "estimate": "29% average increase in croplands",
+        "estimate_type": "meta-analysis average",
+        "conditions": "Global meta-analysis of land-management practices. The reported effect varied among amendment types, soils and management conditions.",
+        "time_context": "Across studies included in the meta-analysis",
+        "practice": "organic amendments",
+        "source_title": "A global meta-analysis of soil organic carbon in the Anthropocene",
+        "organization": "Nature Communications",
+        "source_type": "Peer-reviewed meta-analysis",
+        "url": "https://www.nature.com/articles/s41467-023-39338-z"
+    },
+
+    "BIODIVERSITY_DIVERSIFIED_FARMING": {
+        "evidence_id": "BIODIVERSITY_DIVERSIFIED_FARMING",
+        "metric": "species_richness",
+        "estimate": "26% higher species richness",
+        "estimate_type": "meta-analysis comparison",
+        "conditions": "Diversified farming systems compared with simplified farming systems. Effects varied among functional groups and landscape complexity.",
+        "time_context": "Across studies included in the global meta-analysis",
+        "practice": "farm diversification",
+        "source_title": "Landscape complexity and functional groups moderate the effect of diversified farming on biodiversity",
+        "organization": "Agriculture, Ecosystems & Environment",
+        "source_type": "Global meta-analysis",
+        "url": "https://doi.org/10.1016/j.agee.2022.107933"
+    },
+
+    "BIODIVERSITY_AGROFORESTRY": {
+        "evidence_id": "BIODIVERSITY_AGROFORESTRY",
+        "metric": "biodiversity",
+        "estimate": "20% increase",
+        "estimate_type": "meta-analysis estimate",
+        "conditions": "Temperate silvoarable agroforestry compared with monocropping; effects varied by system and management conditions.",
+        "time_context": "Across the studies included in the systematic review and meta-analysis",
+        "practice": "agroforestry",
+        "source_title": "Tree-crop combinations and their variable effects on agroecosystem services",
+        "organization": "Agriculture, Ecosystems & Environment",
+        "source_type": "Systematic review and meta-analysis",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0167880925004955"
+    }
+}

@@ -1,0 +1,271 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7f4;
+    min-height: 100vh;
+    color: #222;
+}
+
+.container {
+    width: 92%;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+/* ==============================
+   HEADER
+   ============================== */
+
+header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 8px;
+}
+
+header p {
+    font-size: 18px;
+    color: #555;
+}
+
+
+/* ==============================
+   ENVIRONMENTAL DATA PANEL
+   ============================== */
+
+.data-panel {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    margin-bottom: 20px;
+}
+
+.data-panel h2 {
+    margin-bottom: 8px;
+}
+
+.description {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 15px;
+    background: white;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #356b35;
+}
+
+
+/* ==============================
+   CHAT CONTAINER
+   ============================== */
+
+.chat-container {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+.chat-box {
+    height: 550px;
+    overflow-y: auto;
+    padding: 25px;
+}
+
+
+/* ==============================
+   CHAT MESSAGES
+   ============================== */
+
+.message {
+    max-width: 88%;
+    padding: 16px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    line-height: 1.5;
+}
+
+.message.bot {
+    background: #eef5ee;
+    margin-right: auto;
+}
+
+.message.user {
+    background: #e8eef8;
+    margin-left: auto;
+}
+
+.message p {
+    margin-top: 8px;
+}
+
+
+/* ==============================
+   RECOMMENDATIONS
+   ============================== */
+
+.recommendation {
+    margin-top: 18px;
+    padding: 18px;
+    border-radius: 8px;
+    background: #f7faf7;
+    border-left: 4px solid #356b35;
+}
+
+.recommendation h3 {
+    margin-bottom: 12px;
+}
+
+.recommendation p {
+    margin-bottom: 10px;
+}
+
+.recommendation ul {
+    margin-left: 22px;
+    margin-bottom: 12px;
+}
+
+
+/* ==============================
+   REASONING / EVIDENCE
+   ============================== */
+
+.evidence {
+    margin-top: 12px;
+    padding: 13px;
+    background: white;
+    border-radius: 7px;
+    border: 1px solid #ddd;
+}
+
+.evidence p {
+    margin-top: 7px;
+}
+
+.evidence a {
+    color: #356b35;
+    word-break: break-word;
+}
+
+
+/* ==============================
+   CLARIFYING QUESTIONS
+   ============================== */
+
+.question {
+    margin-top: 10px;
+    padding: 12px;
+    background: white;
+    border-radius: 7px;
+}
+
+.question p {
+    margin-top: 7px;
+}
+
+
+/* ==============================
+   INPUT AREA
+   ============================== */
+
+.input-area {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+}
+
+textarea {
+    flex: 1;
+    resize: none;
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #356b35;
+}
+
+button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    background: #356b35;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    min-width: 140px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+
+/* ==============================
+   MOBILE RESPONSIVE
+   ============================== */
+
+@media (max-width: 700px) {
+
+    .container {
+        width: 95%;
+        margin: 15px auto;
+    }
+
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .input-area {
+        flex-direction: column;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .message {
+        max-width: 95%;
+    }
+}   

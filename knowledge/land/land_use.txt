@@ -1,0 +1,37 @@
+@"
+LAND USE KNOWLEDGE
+
+Land Use:
+Land use describes how land is managed or utilized, such as forests, grasslands, croplands, plantations, wetlands or urban areas.
+
+Monoculture:
+Monoculture is a land-use system dominated by one crop species. It can provide production efficiency but may provide fewer habitat types and resources than more diverse systems.
+
+Land Use and Biodiversity:
+Land-use and land-cover change can contribute to the loss of natural ecosystems and biodiversity. The effects depend on the type, intensity and spatial pattern of land management.
+
+Habitat Fragmentation:
+Fragmentation occurs when continuous habitat is divided into smaller or more isolated patches. Fragmentation can reduce habitat connectivity and affect movement and access to resources for organisms.
+
+Agroforestry:
+Agroforestry integrates trees or other woody perennials with crops and/or animals. Depending on design and local conditions, agroforestry can diversify production, provide habitat, influence microclimate and contribute to ecosystem services.
+
+Vegetation Cover:
+Maintaining suitable vegetation cover can influence soil protection, water regulation and habitat availability.
+
+Important Metrics:
+- Land-use type
+- Habitat diversity
+- Habitat connectivity
+- Vegetation cover
+- Species richness
+- Soil organic carbon
+
+Reasoning Relationship:
+A monoculture with low habitat diversity may provide fewer habitat types than a diversified land-use system. Where appropriate, integrating suitable vegetation or agroforestry elements can increase structural diversity. The recommendation should consider rainfall, soil moisture, soil carbon and existing biodiversity.
+
+Evidence Source:
+FAO - Agroforestry Overview
+IPCC AR6 WGII - Chapter 2: Terrestrial and Freshwater Ecosystems and Their Services
+IPCC AR6 WGIII - Chapter 7: Agriculture, Forestry and Other Land Uses
+"@ | Set-Content -Encoding UTF8 knowledge\land\land_use.txt

@@ -1,0 +1,34 @@
+@"
+CLIMATE KNOWLEDGE
+
+Temperature:
+Temperature affects plant growth, water demand, species distributions and ecosystem processes. Changes in temperature can alter the timing and suitability of habitats for different species.
+
+Rainfall:
+Rainfall determines an important part of water availability for terrestrial ecosystems and agriculture. Low or highly variable rainfall can increase water stress for vegetation.
+
+Water Availability and Biodiversity:
+Changes in precipitation and temperature can affect freshwater ecosystems and species through changes in water availability, habitat conditions and physiological stress.
+
+Climate and Soil:
+Temperature and moisture influence biological activity in soils. Climate conditions can therefore interact with soil organic carbon, vegetation and soil biodiversity.
+
+Climate and Habitat:
+Species may respond to changing temperature and precipitation by changing their geographic ranges, seasonal activity or habitat use. Species responses differ between ecosystems and species.
+
+Important Metrics:
+- Temperature
+- Rainfall
+- Soil moisture
+- Water availability
+- Species richness
+- Habitat condition
+
+Reasoning Relationship:
+Low rainfall combined with low soil moisture can increase water stress. If vegetation cover is also low, habitat conditions may become less suitable for some species. Climate-related risks should therefore be evaluated together with soil moisture, land use and biodiversity indicators.
+
+Evidence Source:
+IPCC AR6 WGII - Chapter 2: Terrestrial and Freshwater Ecosystems and Their Services
+IPCC AR6 WGII - Chapter 4: Water
+IPCC Special Report on Climate Change and Land
+"@ | Set-Content -Encoding UTF8 knowledge\climate\climate.txt

@@ -1,0 +1,9 @@
+{
+  "soil_organic_carbon": {
+    "metric": "Soil organic carbon",
+    "evidence_type": "scientific",
+    "sources": [
+      "FAO_SOIL_BIODIVERSITY"
+    ]
+  }
+}

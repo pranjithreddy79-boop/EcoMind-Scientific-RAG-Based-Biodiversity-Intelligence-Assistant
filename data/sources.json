@@ -1,0 +1,56 @@
+[
+  {
+    "source_id": "FAO_SOIL_BIODIVERSITY",
+    "title": "The State of Knowledge of Soil Biodiversity",
+    "organization": "FAO",
+    "type": "Report",
+    "topics": [
+      "soil biodiversity",
+      "soil health",
+      "soil organisms",
+      "nutrient cycling"
+    ],
+    "url": "https://www.fao.org/3/cb1929en/cb1929en.pdf"
+  },
+  {
+    "source_id": "IPCC_AR6_WGII_CH2",
+    "title": "Climate Change 2022: Impacts, Adaptation and Vulnerability - Chapter 2",
+    "organization": "IPCC",
+    "type": "Assessment Report",
+    "topics": [
+      "terrestrial ecosystems",
+      "biodiversity",
+      "climate change",
+      "habitat",
+      "species"
+    ],
+    "url": "https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-2/"
+  },
+  {
+    "source_id": "IPCC_AR6_WGII_CH4",
+    "title": "Climate Change 2022: Impacts, Adaptation and Vulnerability - Chapter 4",
+    "organization": "IPCC",
+    "type": "Assessment Report",
+    "topics": [
+      "water",
+      "water availability",
+      "climate",
+      "ecosystems"
+    ],
+    "url": "https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-4/"
+  },
+  {
+    "source_id": "IPCC_CLIMATE_LAND",
+    "title": "Climate Change and Land",
+    "organization": "IPCC",
+    "type": "Special Report",
+    "topics": [
+      "land",
+      "agriculture",
+      "soil",
+      "climate",
+      "land degradation"
+    ],
+    "url": "https://www.ipcc.ch/srccl/"
+  }
+]
